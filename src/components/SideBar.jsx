@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const SideBar = () => {
   return (
-    <div className="p-5 shadow-lg w-48">
+    <div className="p-5 mt-14 fixed bg-white z-50 h-screen shadow-lg w-48">
         <ul>
         <li><Link>Home</Link></li>
         <li>Shorts</li>

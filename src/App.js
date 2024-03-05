@@ -29,7 +29,7 @@ const App = () => {
   return (
     <Provider store={appStore}>
       <div>
-        <Header />
+        <Header  />
         <RouterProvider router={appRouter} />
       </div>
     </Provider>
